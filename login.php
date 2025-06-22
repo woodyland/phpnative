@@ -2,7 +2,7 @@
 include 'dbkonek.php';
 session_start();
 if (isset($_SESSION['nama'])) {
-    header('location:landing.php');
+    header('location:tampil.php');
 } else {
 ?>
 
